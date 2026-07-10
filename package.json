@@ -13,7 +13,6 @@
         "@capacitor/android": "^8.4.1",
         "@capacitor/cli": "^8.4.1",
         "@capacitor/core": "^8.4.1",
-        "@capacitor/device": "^8.0.2",
         "@capacitor/filesystem": "latest",
         "@capacitor/share": "latest",
         "html2pdf.js": "^0.10.3",
