@@ -646,3 +646,135 @@ body{
                                                                                                                                                                                                                                                                                                                                 width:100%!important;
                                                                                                                                                                                                                                                                                                                                   }
                                                                                                                                                                                                                                                                                                                                   }
+.activation-page{
+    min-height:100vh;
+      width:100%;
+        display:flex;
+          align-items:center;
+            justify-content:center;
+              padding:18px;
+                background:linear-gradient(180deg,#eef4ff,#f8fbff);
+                  direction:rtl;
+                  }
+
+                  .activation-card{
+                    width:100%;
+                      max-width:430px;
+                        background:#ffffff;
+                          border:1px solid #dfe7f5;
+                            border-radius:22px;
+                              padding:20px;
+                                box-shadow:0 14px 35px rgba(36,91,255,.12);
+                                  color:#102a43;
+                                  }
+
+                                  .activation-card h1{
+                                    margin:0 0 14px;
+                                      font-size:1.35rem;
+                                        text-align:center;
+                                          color:#003366;
+                                          }
+
+                                          .activation-note{
+                                            margin:0 0 14px;
+                                              line-height:1.8;
+                                                font-size:.9rem;
+                                                  color:#334155;
+                                                    text-align:center;
+                                                    }
+
+                                                    .activation-success{
+                                                      padding:12px;
+                                                        border-radius:14px;
+                                                          background:#eafaf1;
+                                                            color:#167a3b;
+                                                              font-weight:800;
+                                                                text-align:center;
+                                                                  margin-bottom:14px;
+                                                                  }
+
+                                                                  .activation-small{
+                                                                    margin:12px 0 0;
+                                                                      font-size:.78rem;
+                                                                        color:#64748b;
+                                                                          text-align:center;
+                                                                            line-height:1.7;
+                                                                            }
+
+                                                                            .activation-card .field{
+                                                                              display:block;
+                                                                                margin-bottom:12px;
+                                                                                }
+
+                                                                                .activation-card .field span{
+                                                                                  display:block;
+                                                                                    margin-bottom:6px;
+                                                                                      font-size:.82rem;
+                                                                                        font-weight:800;
+                                                                                          color:#003366;
+                                                                                          }
+
+                                                                                          .activation-card input,
+                                                                                          .activation-card textarea{
+                                                                                            width:100%;
+                                                                                              border:1px solid #dfe7f5;
+                                                                                                border-radius:14px;
+                                                                                                  padding:11px 12px;
+                                                                                                    font-family:inherit;
+                                                                                                      font-size:.95rem;
+                                                                                                        outline:none;
+                                                                                                          background:#f8fbff;
+                                                                                                            color:#102a43;
+                                                                                                            }
+
+                                                                                                            .activation-card textarea{
+                                                                                                              resize:none;
+                                                                                                                text-align:center;
+                                                                                                                  direction:ltr;
+                                                                                                                    font-weight:800;
+                                                                                                                      letter-spacing:1px;
+                                                                                                                      }
+
+                                                                                                                      .activation-card input:focus,
+                                                                                                                      .activation-card textarea:focus{
+                                                                                                                        border-color:#245bff;
+                                                                                                                          box-shadow:0 0 0 3px rgba(36,91,255,.12);
+                                                                                                                          }
+
+                                                                                                                          .activation-card .row{
+                                                                                                                            display:grid;
+                                                                                                                              grid-template-columns:1fr 1fr;
+                                                                                                                                gap:8px;
+                                                                                                                                  margin-bottom:12px;
+                                                                                                                                  }
+
+                                                                                                                                  .activation-card .btn.full{
+                                                                                                                                    width:100%;
+                                                                                                                                    }
+
+                                                                                                                                    body[data-theme="dark"] .activation-page{
+                                                                                                                                      background:#0f172a;
+                                                                                                                                      }
+
+                                                                                                                                      body[data-theme="dark"] .activation-card{
+                                                                                                                                        background:#111827;
+                                                                                                                                          border-color:#263244;
+                                                                                                                                            color:#f8fafc;
+                                                                                                                                            }
+
+                                                                                                                                            body[data-theme="dark"] .activation-card h1,
+                                                                                                                                            body[data-theme="dark"] .activation-card .field span{
+                                                                                                                                              color:#bfdbfe;
+                                                                                                                                              }
+
+                                                                                                                                              body[data-theme="dark"] .activation-note,
+                                                                                                                                              body[data-theme="dark"] .activation-small{
+                                                                                                                                                color:#cbd5e1;
+                                                                                                                                                }
+
+                                                                                                                                                body[data-theme="dark"] .activation-card input,
+                                                                                                                                                body[data-theme="dark"] .activation-card textarea{
+                                                                                                                                                  background:#0f172a;
+                                                                                                                                                    border-color:#334155;
+                                                                                                                                                      color:#f8fafc;
+                                                                                                                                                      }
